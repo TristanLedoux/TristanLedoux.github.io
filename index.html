@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Tristan Ledoux's Website</title>
+<title >Tristan Ledoux's Website</title>
 <meta charset="UTF-8">
 <meta name="description" content="My personal website">
 <meta name="keywords" content="HTML">
 <meta name="author" content="Tristan Ledoux">
-<style> table, th, td {border: 1px solid black;}</style>
+<link rel="stylesheet" href="style.css">
+<style> table, th, td {border: 1px solid black;} table {border-collapse: collapse;} tr:nth-child(even) {background-color: #cccccc;} h2 {color:green;}</style>
 </head>
 <center>
 <body>
 <hr size=3, noshade/>
-<h1> Welcome </h1>
+<h1 style="color:green;"> Welcome </h1>
 <br>
-<h3>to</h3>
+<h3 style="color:green;">to</h3>
 <br>
-<h1>Tristan Ledoux's Website</h1>
+<h1 style="color:green;">Tristan Ledoux's Website</h1>
 <hr size=3, noshade/>
 </center>
 <h2>Contents</h2>
@@ -27,18 +28,19 @@
   <li><a href="#Portfolio">Portfolio</a></li>
 </ol>
 <hr size=3, noshade/>
-<img src="My picture.jpg" alt="Picture of myself" style=width:128px;height:148px>
-<a id="About_Myself"><h2>About Myself</h2></a>
+<div class="personal">
+<img src="My picture.jpg" class="photo" alt="Picture of myself" style=width:128px;height:148px>
+<a id="About_Myself"><h2 style="text-align:center;">About Myself</h2></a>
 <p>
 Hi, my name is tristan ledoux, I am from Montreal, Quebec. I'm 26 and currently a student at St.Lawrence College,
 studying game programming. I also work part time as a computer technicien at Pc-Teck in Vaudreuil-Dorion. I try to live by these words <q>Believe you can and you're halfway there.</q> Theodore Roosevelt.
 </p>
-<img src="Pc Teck  Front.jpg" alt="Front of Pc-Teck" usemap="#pc-teck" width="400" height="300">
+<img src="Pc Teck  Front.jpg" class="photo" alt="Front of Pc-Teck" usemap="#pc-teck" width="400" height="300">
 <map name="pc-teck">
   <area shape="rect" coords="31, 41, 180, 90" alt="pc-teck sign" href="https://www.pc-teck.com/">
 </map>
 <blockquote>
-<pre>
+<pre class="red bold underline">
   Notre équipe de techniciens peut installer n'importe quel composante pour vous...
 Même si vous ne l'avez pas acheté chez nous!
 
@@ -109,13 +111,16 @@ Charge Minimum pour Appel de service = $45.00 (+ déplacement)
 <br>
 <a href="https://steamcommunity.com/profiles/76561198009668679/" target="_blank">My Steam Profile</a>
 <hr size=3, noshade/>
+</div>
+<div class="professional">
 <a id="Contact"><h2>Contact</h2></a>
 <p>
 Email: Tristanledoux@gmail.com
 </p>
 <hr size=3, noshade/>
 <a id="Portfolio"><h2>My Portfolio</h2></a>
-<a href="https://tristanledoux.github.io/portfolio.html">My Portfolio</a>
+<a class="link" href="portfolio.html"><p>My Portfolio</p></a>
+</div>
 </body>
 </html>
 
