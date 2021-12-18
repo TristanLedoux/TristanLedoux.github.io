@@ -1,8 +1,8 @@
-body {background-color: aqua}
+body {background-color: lightblue}
 .professional {background-color: lightblue;}
-.personal {background-color: lightgreen}
+.personal {background-color: lightblue}
 hr {
-background-color: green;
+background-color: black;
 width: 100%;
 height:3px; }
 #Portfolio {text-align: center;}
@@ -11,5 +11,5 @@ height:3px; }
 .bold {font-weight: bold;}
 .photo {border: 5px solid black;}
 .link {text-align: center;}
-ul {color:green}
+ul {color:black}
 .photo2 {border-radius: 12px;}
